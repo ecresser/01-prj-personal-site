@@ -1,1 +1,94 @@
 /* Add you CSS here */
+
+/* Use Oswald for regular text and Pacifico for headings */
+
+/* Set up the main font and background for the page */
+body {
+  font-family: 'Oswald', Arial, sans-serif; /* Regular text font */
+  background-color: #f7f7f7; /* Light background color */
+  color: #222; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Use Pacifico font for all main headings */
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+  margin-top: 0;
+}
+
+/* Style for the hero section at the top */
+.hero {
+  /* Slightly darker blue background with some opacity */
+  background-color: rgba(100, 180, 255, 0.92); /* Darker blue, a bit more see-through */
+  color: #222;
+  text-align: center;
+  padding: 40px 16px 28px 16px; /* Space inside the section */
+  border-bottom: 4px solid #3498db; /* Darker blue accent border */
+}
+
+/* Navigation bar styles for a simple horizontal layout */
+.navbar {
+  text-align: center; /* Center the navbar horizontally */
+  margin: 24px 0 0 0; /* Top margin 24px, no left margin */
+  padding: 0;
+}
+
+/* Remove default list styling */
+.navbar ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+/* Display links in a row (horizontally) */
+.navbar li {
+  display: inline-block; /* Show list items side by side */
+  margin: 0 15px; /* Space between links */
+}
+
+/* Style the links */
+.navbar a {
+  text-decoration: none;
+  color: #000; /* Black font for links */
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Add a simple hover effect */
+.navbar a:hover {
+  text-decoration: underline;
+  color: green; /* Make the link green when hovered */
+}
+
+/* Style for the bio section */
+.bio {
+  background-color: #fff; /* White background */
+  margin: 24px auto 0 auto; /* Top margin 24px, left and right auto to center */
+  padding: 28px 16px;
+  max-width: 600px; /* Keeps content easy to read */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.12); /* Slightly darker blue shadow */
+}
+
+/* Style for the skills section */
+.skills {
+  /* Slightly darker pink background with some opacity */
+  background-color: rgba(255, 140, 180, 0.92); /* Darker pink, a bit more see-through */
+  margin: 24px auto;
+  padding: 28px 16px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 105, 180, 0.10); /* Slightly darker pink shadow */
+}
+
+/* Style for the skills list */
+.skills ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 24px; /* Indent the list */
+}
+
+/* Add a little space between sections */
+section {
+  margin-bottom: 24px;
+}
