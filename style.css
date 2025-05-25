@@ -19,18 +19,17 @@ h1, h2 {
 
 /* Style for the hero section at the top */
 .hero {
-  /* Slightly darker blue background with some opacity */
-  background: #e0f7fa; /* Darker blue, a bit more see-through */
-  color: #222;
-  text-align: center;
-  padding: 40px 10px; /* Space inside the section */
-  border-bottom: 4px solid #3498db; /* Darker blue accent border */
+  background: #4fc3f7; /* A darker blue background for the hero section */
+  color: #222; /* Dark text for readability */
+  text-align: center; /* Center the text */
+  padding: 40px 10px; /* Space inside the hero section */
+  margin-bottom: 0; /* No space below the hero section */
 }
 
 /* Navigation bar styles for a simple horizontal layout */
 .navbar {
-  text-align: center; /* Center the navbar horizontally */
-  margin: 24px 0 0 0; /* Top margin 24px, no left margin */
+  text-align: center;
+  margin: 0; /* No space above the navbar */
   padding: 0;
 }
 
@@ -61,7 +60,7 @@ h1, h2 {
 /* Add a simple hover effect */
 .navbar a:hover {
   text-decoration: underline;
-  color: green; /* Make the link green when hovered */
+  color: #66ff66; /* Light green when hovered */
 }
 
 /* Style for the bio section */
@@ -76,14 +75,12 @@ h1, h2 {
 
 /* Style for the skills section */
 .skills {
-  /* Slightly darker pink background with some opacity */
-  background-color: rgba(255, 140, 180, 0.92); /* Darker pink, a bit more see-through */
+  background-color: rgba(255, 140, 180, 0.92); /* Light pink background */
   max-width: 600px;
   margin: 30px auto;
-  background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Slightly darker pink shadow */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Slight shadow */
 }
 
 /* Style for the skills list */
